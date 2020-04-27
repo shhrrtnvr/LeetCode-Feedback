@@ -1,0 +1,14 @@
+In the 30 day leetcoding Challenge, The Maximal Square problem description says to find the largest square matrix with all ones.
+Square matrix is the one that hase equal number of row and column
+However, there is a testcase in judge dataset that gives the wrong output
+
+1 0 1 1 0 1 
+1 1 1 1 1 1 
+0 1 1 0 1 1 
+1 1 1 0 1 0 
+0 1 1 1 1 1 
+1 1 0 1 1 1 
+
+In this testcase the maximum "square" with all one has area 4.
+But the judge gives 16 which is a rectangular area.
+So, there is either the description should state rectangular area or the judge answer should be corrected to 4
